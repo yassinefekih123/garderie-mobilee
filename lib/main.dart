@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'splash_screen.dart';
 
 void main() => runApp(const MaGarderieApp());
 
@@ -11,7 +12,7 @@ class MaGarderieApp extends StatelessWidget {
       title: 'Ma Garderie',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(colorSchemeSeed: Colors.orange, useMaterial3: true),
-      home: const Scaffold(body: Center(child: Text('Ma Garderie'))),
+      home: const SplashScreen(),
     );
   }
 }
